@@ -1,7 +1,12 @@
 <html>
 <head>
-<title>First web app</title></head>
+<title>First web app</title>
+</head>
 <body>
-my first jsp!! welcome ${name}!
+	<font color="red">${errorMessage}</font>
+	<form method="post">
+		Name : <input type="text" name="name" /> Password : <input
+			type="password" name="password" /> <input type="submit" />
+	</form>
 </body>
 </html>
